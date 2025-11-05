@@ -1,0 +1,49 @@
+#add-button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+#todo-dialog > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#todo-dialog > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.todo {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 0 1rem;
+    border: 1px solid #000;
+}
+
+.todo > div {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.todo-button {
+    height: 1.5rem;
+}
